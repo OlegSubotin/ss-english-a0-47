@@ -15,19 +15,19 @@ const DescriptionContent = () => {
         <li className={s.item}>
           <Link to="grammar">
             <h4 className={s.title}>Grammar block</h4>
-            <p className={s.text}>Past Simple. Verb (to be)</p>
+            <p className={s.text}>Past Simple.</p>
           </Link>
         </li>
         <li className={s.item}>
           <Link to="reading">
             <h4 className={s.title}>Reading block</h4>
-            <p className={s.text}>Poster at work</p>
+            <p className={s.text}>Restaurant menu</p>
           </Link>
         </li>
         <li className={s.item}>
           <Link to="speaking">
             <h4 className={s.title}>Speaking block</h4>
-            <p className={s.text}>Meeting people</p>
+            <p className={s.text}>Meeting people and Homework problems</p>
           </Link>
         </li>
       </ul>
