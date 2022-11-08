@@ -1,80 +1,80 @@
 import React from 'react';
 import s from "./WordsImagesList.module.css";
-import aircondition from "../../../db/vocabularyImages/aircondition.jpg"
-import carpet from "../../../db/vocabularyImages/carpet.jpg"
-import ceiling from "../../../db/vocabularyImages/ceiling.jpg"
-import door from "../../../db/vocabularyImages/door.jpg"
-import floor from "../../../db/vocabularyImages/floor.jpg"
-import heating from "../../../db/vocabularyImages/heating.jpg"
-import light from "../../../db/vocabularyImages/light.jpg"
-import radiator from "../../../db/vocabularyImages/radiator.jpg"
-import socket from "../../../db/vocabularyImages/socket.jpg"
-import switchEl from "../../../db/vocabularyImages/switch.jpg"
-import wall from "../../../db/vocabularyImages/wall.jpg"
-import window from "../../../db/vocabularyImages/window.jpg"
+import bag from "../../../db/vocabularyImages/bag.jpg"
+import belt from "../../../db/vocabularyImages/belt.jpg"
+import bracelet from "../../../db/vocabularyImages/bracelet.jpg"
+import cap from "../../../db/vocabularyImages/cap.jpg"
+import earrings from "../../../db/vocabularyImages/earrings.jpg"
+import glasses from "../../../db/vocabularyImages/glasses.jpg"
+import gloves from "../../../db/vocabularyImages/gloves.jpg"
+import hat from "../../../db/vocabularyImages/hat.jpg"
+import necklace from "../../../db/vocabularyImages/necklace.jpg"
+import pocket from "../../../db/vocabularyImages/pocket.jpg"
+import rucksack from "../../../db/vocabularyImages/rucksack.jpg"
+import scarf from "../../../db/vocabularyImages/scarf.jpg"
 
 const WordsImagesList = () => {
   return (
     <div>
       <ul className={s.list}>
         <li className={s.item}>
-          <img src={aircondition} alt="air-condition" width='190' />
-          <p className={s.text}>air-condition</p>
+          <img src={bag} alt="bag" width='190' />
+          <p className={s.text}>bag</p>
         </li>
 
         <li className={s.item}>
-          <img src={carpet} alt="carpet" width='190' />
-          <p className={s.text}>carpet</p>
+          <img src={belt} alt="belt" width='190' />
+          <p className={s.text}>belt</p>
         </li>
         
         <li className={s.item}>
-          <img src={ceiling} alt="ceiling" width='190' />
-          <p className={s.text}>ceiling</p>
+          <img src={bracelet} alt="bracelet" width='190' />
+          <p className={s.text}>bracelet</p>
         </li>
         
         <li className={s.item}>
-          <img src={door} alt="door" width='190' />
-          <p className={s.text}>door</p>
+          <img src={cap} alt="cap" width='190' />
+          <p className={s.text}>cap</p>
         </li>
         
         <li className={s.item}>
-          <img src={floor} alt="floor" width='190' />
-          <p className={s.text}>floor</p>
+          <img src={earrings} alt="earrings" width='190' />
+          <p className={s.text}>earrings</p>
         </li>
         
         <li className={s.item}>
-          <img src={heating} alt="heating" width='190' />
-          <p className={s.text}>heating</p>
+          <img src={glasses} alt="glasses" width='190' />
+          <p className={s.text}>glasses</p>
         </li>
 
         <li className={s.item}>
-          <img src={light} alt="light" width='190' />
-          <p className={s.text}>light</p>
+          <img src={gloves} alt="gloves" width='190' />
+          <p className={s.text}>gloves</p>
         </li>
 
         <li className={s.item}>
-          <img src={radiator} alt="radiator" width='190' />
-          <p className={s.text}>radiator</p>
+          <img src={hat} alt="hat" width='190' />
+          <p className={s.text}>hat</p>
         </li>
 
         <li className={s.item}>
-          <img src={socket} alt="socket" width='190' />
-          <p className={s.text}>socket</p>
+          <img src={necklace} alt="necklace" width='190' />
+          <p className={s.text}>necklace</p>
         </li>
 
         <li className={s.item}>
-          <img src={switchEl} alt="switch" width='190' />
-          <p className={s.text}>switch</p>
+          <img src={pocket} alt="pocket" width='190' />
+          <p className={s.text}>pocket</p>
         </li>
 
         <li className={s.item}>
-          <img src={wall} alt="wall" width='190' />
-          <p className={s.text}>wall</p>
+          <img src={rucksack} alt="rucksack" width='190' />
+          <p className={s.text}>rucksack</p>
         </li>
         
         <li className={s.item}>
-          <img src={window} alt="window" width='190' />
-          <p className={s.text}>window</p>
+          <img src={scarf} alt="scarf" width='190' />
+          <p className={s.text}>scarf</p>
         </li>
       </ul>
     </div>
